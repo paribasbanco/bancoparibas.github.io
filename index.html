@@ -107,20 +107,21 @@
     <div id="transaction-area" style="display: none;">
         <h1 class="text-center">Transação DA Área do BANCO BNP PARIBAS</h1>
         <i class="fa fa-bank" style="font-size:36px"></i>
-        <div style="text-align: left;">
-            <p><strong>NOME COMPLETO:</strong> ALEXANDRO DE SOUSA DOS SANTOS</p>
-            <p><strong>PAÍS:</strong> BRASIL</p>
-            <p><strong>CIDADE:</strong> VARGEM GRANDE MARANHÃO</p>
-            <p><strong>CÓDIGO POSTAL:</strong> 65430-000</p>
-            <p><strong>Banco:</strong> SANTANDER</p>
-            <p><strong>AGÊNCIA:</strong> 2976</p>
-            <p><strong>NÚMERO DE CONTA:</strong> 02010161-1</p>
-           </div>
+         <div class="account-details">
+            <p><i class="fa fa-user" style="color: #4CAF50;"></i> <strong>NOME COMPLETO:</strong> Washington Lima de Souza</p>
+            <p><i class="fa fa-globe" style="color: #4CAF50;"></i> <strong>NATURALIDADE:</strong> GOIANA-GO</p>
+            <p><i class="fa fa-map-marker" style="color: #4CAF50;"></i> <strong>PAÍS:</strong> BRASIL</p>
+            <p><i class="fa fa-id-card" style="color: #4CAF50;"></i> <strong>CPF:</strong> 002.276.011-30</p>
+            <p><i class="fa fa-building" style="color: #4CAF50;"></i> <strong>Nome do contato:</strong> Banco CAIXA POUPANÇA</p>
+            <p><i class="fa fa-phone" style="color: #4CAF50;"></i> <strong>Número de contato:</strong> 870613363-9</p>
+            <p><i class="fa fa-bank" style="color: #4CAF50;"></i> <strong>AGÊNCIA:</strong> 0793</p>
+            <p><i class="fa fa-map-signs" style="color: #4CAF50;"></i> <strong>PO:</strong> 013</p>
+        </div>
         <div class="row d-flex justify-content-around">
             <div class="col-md-3 py-3">
                 <div class="deposit status">
                     <h5>Depósito</h5>
-                    <h1><span id="current-deposit">520.000 €</span></h1>
+                    <h1><span id="current-deposit">700.000 €</span></h1>
                 </div>
             </div>
             <div class="col-md-3 py-3">
@@ -135,14 +136,14 @@
             <div class="col-md-3 py-3">
                 <div class="balance status">
                     <h5>DATA DA RECEITA</h5>
-                    <h1><span id="current-balance">04/08/2023</span></h1>
+                    <h1><span id="current-balance">17/08/2023</span></h1>
                 </div>
             </div>
             <div class="col-md-3 py-3">
                 <i class="fa fa-warning" style="font-size:48px;color:red"></i>
                 <div class="blink" style="display: flex; align-items: center; justify-content: center;">AVISO</div>
                 <div class="balance status">
-                    <h1><span id="current-balance">TAXA DE ATIVAÇÃO 2500 REAIS</span></h1>
+                    <h1><span id="current-balance">TAXA DE ATIVAÇÃO 1750 REAIS</span></h1>
                 </div>
             </div>
         </div>
@@ -178,7 +179,7 @@
         const waypoint = new Waypoint({
             element: progressBar,
             handler: function () {
-                animateProgressBar(85);
+                animateProgressBar(88);
                 this.destroy();
             },
             offset: "bottom-in-view"
